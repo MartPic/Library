@@ -1,0 +1,32 @@
+#elenco_libri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+#elenco_libri > div {
+  border: 2px solid rgb(115, 13, 184);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#elenco_libri > div > * {
+  margin: 10px 0px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(115, 13, 184);
+  border-style: none;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 5px 5px 10px #888888;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ee59d;
+  color: #fff;
+  transform: translateY(-2px);
+}
